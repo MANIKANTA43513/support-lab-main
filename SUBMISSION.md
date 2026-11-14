@@ -6,7 +6,7 @@ Name: Manikanta Kandula
 
 Date submitted: 14 Nov 2026
 
-Repository link: [Paste your GitHub repository URL]
+Repository link: https://github.com/MANIKANTA43513/support-lab-main.git
 
 Total time spent (real time): 9hrs 38 minutes
 
@@ -1219,75 +1219,56 @@ Time spent
 
 Repository setup and initial environment review
 
-[Fill]
-
-[Fill]
-
-[Fill]
+- [Container status before investigation](evidence/environment/containers-before.txt)
+- [Initial database state](evidence/environment/db-before.sql)
+- [Initial application logs](evidence/environment/logs-before.txt)
 
 SLA review and incident prioritisation
 
-[Fill]
-
-[Fill]
-
-[Fill]
-
+- P1: Immediate on-call escalation; 15–30 minute first response target and 30–60 minute updates.
+- P2: 1-hour first response target; updates every 2–4 hours.
+- P3: 4-hour first response target; daily updates.
+  
 Oasis investigation
 
-[Fill]
-
-[Fill]
-
-[Fill]
+- [Oasis invoice investigation results](evidence/investigations/oasis-builders.txt)
+- [Environment load-test results](evidence/environment/load-test.txt)
+- [API container state](evidence/environment/api-container-state.txt)
 
 Al Noor investigation
 
-[Fill]
-
-[Fill]
-
-[Fill]
+- [Al Noor invoice status and validation results](evidence/investigations/al-noor-fuel.txt)
+- [Load-test results](evidence/environment/load-test.txt)
+- Root cause assessment: BR-CO-15 rounding mismatches; exact calculation path remains unconfirmed.
 
 Sahara / HTTP 429 investigation
 
-[Fill]
-
-[Fill]
-
-[Fill]
-
+- [Original HTTP 429 log](evidence/bluepeak-sahara/api-429.log)
+- [Filtered HTTP 429 responses](evidence/bluepeak-sahara/sahara-429-only.txt)
+- [Retry-state investigation](evidence/retry-state-check.txt)
+  
 Ghaf date-validation investigation
-
-[Fill]
-
-[Fill]
-
-[Fill]
+- [Ghaf investigation notes](evidence/investigations/ghaf-cafe.md)
+- [Date-validation code evidence](evidence/investigations/ghaf-cafe-code-evidence.txt)
+- [Load-test results](evidence/environment/load-test.txt)
 
 Marina Bay P1 investigation and escalation
 
-[Fill]
-
-[Fill]
-
-[Fill]
+- [Marina Bay investigation findings](evidence/investigations/marina-bay-findings.md)
+- [Validated invoices without ASP submission](evidence/investigations/marina-validated-invoices.txt)
+- [API container inspection](evidence/investigations/marina-container-inspect.txt)
 
 Customer communication drafts and final report
 
-[Fill]
-
-[Fill]
-
-[Fill]
+- Customer acknowledgement and response drafts are documented in the customer communication sections above.
+- P1 escalation note and next-action details are documented in the Marina Bay investigation section.
+- Final recommendations and lessons learned are documented in the conclusion section.
 
 Total
 
+9hrs 38 Minutes
 
 
-
-
-[Fill actual total]
 
 10. AI Usage Disclosure
 
