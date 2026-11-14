@@ -4,11 +4,11 @@ Submission Details
 
 Name: Manikanta Kandula
 
-Date submitted: [Fill in before submission]
+Date submitted: 14 Nov 2026
 
 Repository link: [Paste your GitHub repository URL]
 
-Total time spent (real time): [Enter actual time spent]
+Total time spent (real time): 9hrs 38 minutes
 
 Exercise-clock note: All customer communication drafts and incident timelines below use the exercise clock: Monday, 16 November 2026, Asia/Dubai (UTC+4). No customer emails were actually sent. Drafts are included for review. Supporting logs, database outputs, code checks, and investigation notes are stored in the evidence/ directory.
 
