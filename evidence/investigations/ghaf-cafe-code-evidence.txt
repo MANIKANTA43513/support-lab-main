@@ -1,0 +1,15 @@
+## Date parsing evidence
+
+File: services/api/internal/sheet/sheet.go
+- ParseDate accepts ISO dates in YYYY-MM-DD format.
+- It also accepts valid Excel date serial numbers.
+- Other text formats are rejected.
+
+File: services/api/internal/validate/validate.go
+- Issue Date and Due Date are checked using ParseDate.
+- Invalid values produce validation rule AE-BR-04.
+
+Conclusion:
+DD/MM/YYYY text dates are not supported by the current parser.
+The Ghaf Cafe load test rejected all four invoices. This code explains
+the date-format rejection; retain the load-test output as runtime evidence.

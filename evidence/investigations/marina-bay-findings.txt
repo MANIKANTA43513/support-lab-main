@@ -1,0 +1,1 @@
+﻿Marina Bay: 11 invoices have Parsed and Passed portal validation events, but no Sent to ASP event was found. Current status remains Validated. Root cause of queue/worker delay is not yet confirmed.
